@@ -1,0 +1,55 @@
+body {
+  background-color: #E5E5E5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.message-card {
+  padding: 28px;
+  background-color: white;
+  border-radius: 12px;
+  width: 300px;
+}
+.message-card-light {
+  background-color: white;
+}
+.message-card-dark {
+  background-color: #303030;
+}
+.card-top-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-text {
+  flex: 0 0 156px;
+}
+p {
+  font-weight: 400;
+  color: black;
+}
+.number p {
+  font-size: 34px;
+  margin-bottom: 0;
+  line-height: 1;
+}
+.title p {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.message-card-dark p {
+  color: white; 
+}
+.card-bottom-content-wrapper > * {
+  display: inline-block;
+}
+.card-bottom-content-wrapper p {
+  margin: 10px 0 0 0;
+}
+.growth-txt {
+  color: #27AE66;
+  padding-right: 10px;
+}
+.reduce-txt {
+  color: #EB5757 !important;
+  padding-right: 10px;
+}
